@@ -1,9 +1,3 @@
-#Create a base for doubly linked list. 
-
-'''
-The list will contain elements. Each element will have initialized with four values, first the value contained in it, second the previous element in the list, third the next element in the list. 
-If it is a start or end element then the prev or next node will be none respectively. 
-'''
 class Element:
     def __init__(self, value, prev=None, next=None):
         self.value = value
@@ -14,6 +8,7 @@ class DLL:
     def __init__(self):
         self.length = 0
         self.first_value = None
+        self.items = []
 
     def add_at_start(self, value):
         if self.length == 0:
@@ -23,6 +18,7 @@ class DLL:
             self.first_value.prev = new_el
             self.first_value = new_el
         self.length += 1
+        self.items.append(self.first_value)
 
     def add_at_end(self, value):
         if self.length == 0:
@@ -35,15 +31,21 @@ class DLL:
                     new_el = Element(value, prev=current)
                     current.next = new_el
                     self.length += 1
+                    self.items.append(self.first_value)
                     break
                 else:
                     current = current.next
+        
     
     def add_at_pos(self, pos, value):
         pos = pos-1
-        if pos >= self.length:
-            self.add_at_end(value)
-        else:
+        if pos==0:
+            self.add_at_start(value)
+        elif pos == 1:
+            new_el = Element(value, prev=self.first_value, next=self.first_value.next)
+            self.first_value.next = new_el
+            self.length += 1
+        elif pos < self.length:
             for i in range(pos):
                 if i == 0:
                     current = self.first_value
@@ -51,9 +53,12 @@ class DLL:
                     current = current.next
                     new_el = Element(value, prev=current, next=current.next)
                     current.next = new_el
+                    self.items.append(new_el)
                     self.length += 1
                 else:
                     current = current.next
+        else:
+            self.add_at_end(value)
 
     def remove_people(self, qty, pos):
         pos = pos - 1
@@ -61,8 +66,26 @@ class DLL:
             qty = 1
         if (pos >= self.length):
             raise IndexError("Position is larger than the length of DLL")
-        elif (pos+qty) >= self.length:
+        elif pos == 0:
+            for j in range(qty+1):
+                if j==0:
+                    current = self.first_value
+                else:
+                    current = current.next
+            current.prev=None
+            self.first_value = current
+            self.length -= qty
+        elif (pos+qty) > self.length:
             raise IndexError("Position+Quantity is larger than the length of DLL")
+        elif (pos+qty) == self.length:
+            for i in range(pos):
+                if i==0:
+                    current = self.first_value
+                elif i == pos-1:
+                    current = current.next
+            current.next = None
+            self.length -= qty
+
         else:
             for i in range(pos):
                 if i == 0:
@@ -103,7 +126,7 @@ class DLL:
                         else:
                             newnext = newnext.next
                             subdll.add_at_start(newnext.value)
-                    subdll.print_dll()
+                    # subdll.print_dll()
                     current.next = subdll.first_value
                     subdll.parse_dll().next = newnext.next
                     # newnext.prev = subdll.parse_dll()
@@ -119,7 +142,7 @@ class DLL:
                     current = current.next
                 else:
                     break
-            print(current.value)
+            print(current.value, end = " ")
     
     def parse_dll(self, pos=-1):
         if (pos == -1) or (pos>self.length):
@@ -136,20 +159,48 @@ class DLL:
                     current_el = current_el.next
         return current_el
 
+def get_elements(dll:DLL):
+    current = None
+    keep_running = True
+    while keep_running:
+        if current == None:
+            current = dll.first_value
+            if current == None:
+                print("*NONE*")
+            else:
+                print(f"{current.value}", end = " ")
+        else:
+            current = current.next
+            print(f"{current.value}", end = " ")
+        if current.next == None:
+            print(f"\n\nLength of dll : {dll.length}")
+            print("\n====End of DLL =======\n\n")
+            keep_running = False
+        
+def text_func(inputline, dll:DLL):
+    output = inputline.strip().split("::")
+    if output[0] == "add_at_start":
+        dll.add_at_start(output[1])
+        get_elements(dll)
+    elif output[0] == "add_at_end":
+        dll.add_at_end(output[1])
+        get_elements(dll)
+    elif output[0] == "add_at_pos":
+        dll.add_at_pos(int(output[1]), output[2])
+        get_elements(dll)
+    elif output[0] == "flip_order":
+        dll.flip_order(int(output[1]), int(output[2]))
+        get_elements(dll)
+    elif output[0] == "remove_people":
+        dll.remove_people(int(output[1]), int(output[2]))
+        get_elements(dll)
 
 if __name__ == "__main__":
+    with open("inputPS14.txt", "r") as f:
+        data = f.readlines()
+    
     newdll = DLL()
-    newdll.add_at_start("B")
-    newdll.add_at_start("A")
-    newdll.add_at_end("C")
-    newdll.add_at_end("D")
-    newdll.add_at_end("E")
-    newdll.add_at_end("F")
-    newdll.add_at_end("G")
-    newdll.add_at_end("H")
-    print(f"Length of the DLL: {newdll.length} ")
-    newdll.print_dll()
-    print("===NewLIst===")
-    newdll.flip_order(4,3)
-    print(f"Length of DLL : {newdll.length}")
-    newdll.print_dll()
+    for line in data:
+        text_func(line, newdll)
+
+
