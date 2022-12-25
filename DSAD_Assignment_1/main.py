@@ -42,7 +42,7 @@ class DLL:
                     new_el = Element(value, prev=current)
                     current.next = new_el
                     self.length += 1
-                    break
+                    keep_running = False
                 else:
                     current = current.next
         
@@ -63,7 +63,6 @@ class DLL:
                     current = current.next
                     new_el = Element(value, prev=current, next=current.next)
                     current.next = new_el
-                    self.items.append(new_el)
                     self.length += 1
                 else:
                     current = current.next
@@ -136,23 +135,11 @@ class DLL:
                         else:
                             newnext = newnext.next
                             subdll.add_at_start(newnext.value)
-                    # subdll.print_dll()
                     current.next = subdll.first_value
                     subdll.parse_dll().next = newnext.next
-                    # newnext.prev = subdll.parse_dll()
                 else:
                     current = current.next
 
-    def print_dll(self):
-        for i in range(self.length+1):
-            if i==0:
-                current = self.first_value
-            else:
-                if current.next is not None:
-                    current = current.next
-                else:
-                    break
-            print(current.value, end = " ")
     
     def parse_dll(self, pos=-1):
         if (pos == -1) or (pos>self.length):
@@ -177,7 +164,7 @@ def get_elements(dll:DLL):
         if current == None:
             current = dll.first_value
             if current == None:
-                break
+                keep_running = False
             else:
                 output += current.value + " "
         else:
