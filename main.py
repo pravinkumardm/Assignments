@@ -1,16 +1,28 @@
 class Element:
+    '''
+    Create an Element class that will create an element for a doubly linked list, the element contains three attributes, value, prev and next. Prev and Next are defaulted to None. 
+    This class is supposed to be called by the DLL Class for creation of Elements.
+    '''
     def __init__(self, value, prev=None, next=None):
         self.value = value
         self.prev = prev
         self.next = next
 
 class DLL:
+    '''
+    Create a Doubly Linked List (DLL) which will have the elements as per the Elements class
+    '''
     def __init__(self):
+        '''
+        Initiate the DLL with length set to Zero, first value set to None.
+        '''
         self.length = 0
         self.first_value = None
-        self.items = []
 
     def add_at_start(self, value):
+        '''
+        Add an Element to the start of the DLL.
+        '''
         if self.length == 0:
             self.first_value = Element(value)
         else:
@@ -18,7 +30,6 @@ class DLL:
             self.first_value.prev = new_el
             self.first_value = new_el
         self.length += 1
-        self.items.append(self.first_value)
 
     def add_at_end(self, value):
         if self.length == 0:
@@ -31,7 +42,6 @@ class DLL:
                     new_el = Element(value, prev=current)
                     current.next = new_el
                     self.length += 1
-                    self.items.append(self.first_value)
                     break
                 else:
                     current = current.next
@@ -162,7 +172,6 @@ class DLL:
 def get_elements(dll:DLL):
     current = None
     keep_running = True
-    # print("\n====DLL====\n")
     output = ""
     while keep_running:
         if current == None:
@@ -181,7 +190,6 @@ def get_elements(dll:DLL):
 def output_text(inputfile:str, dll:DLL):
     with open(inputfile, "r") as f:
         data = f.readlines()
-    outputfile = "outputPS14.txt"
     outputstr = ""
     for each_line in data:
         actions = each_line.strip().split("::")
@@ -191,53 +199,22 @@ def output_text(inputfile:str, dll:DLL):
         elif actions[0] == "add_at_end":
             dll.add_at_end(actions[1])
             outputstr += get_elements(dll)
-
         elif actions[0] == "add_at_pos":
             dll.add_at_pos(int(actions[1]), actions[2])
             outputstr += get_elements(dll)
-
         elif actions[0] == "flip_order":
             dll.flip_order(int(actions[1]), int(actions[2]))
             outputstr += get_elements(dll)
-
         elif actions[0] == "remove_people":
             dll.remove_people(int(actions[1]), int(actions[2]))
             outputstr += get_elements(dll)
         outputstr += "\n\n"
     return outputstr
-        
-
-# def text_func(inputline, dll:DLL):
-#     output = inputline.strip().split("::")
-#     # print(f"Operation to be performed: {output}")
-#     if output[0] == "add_at_start":
-#         dll.add_at_start(output[1])
-#         get_elements(dll)
-#     elif output[0] == "add_at_end":
-#         dll.add_at_end(output[1])
-#         get_elements(dll)
-#     elif output[0] == "add_at_pos":
-#         dll.add_at_pos(int(output[1]), output[2])
-#         get_elements(dll)
-#     elif output[0] == "flip_order":
-#         dll.flip_order(int(output[1]), int(output[2]))
-#         get_elements(dll)
-#     elif output[0] == "remove_people":
-#         dll.remove_people(int(output[1]), int(output[2]))
-#         get_elements(dll)
-#     else:
-#         print("Mistake in text format")
 
 if __name__ == "__main__":
-
-    # print(output_text("inputPS14.txt", dll=DLL()))
-    with open("outputPS14.txt", "w") as f:
-        f.write(output_text("inputPS14.txt", dll=DLL()))
-    # with open("inputPS14.txt", "r") as f:
-    #     data = f.readlines()
-    
-    # newdll = DLL()
-    # for line in data:
-    #     text_func(line, newdll)
+    inputfile = r"inputPS14.txt"
+    outputfile = r"outputPS14.txt"
+    with open(outputfile, "w") as f:
+        f.write(output_text(inputfile, dll=DLL()))
 
 
