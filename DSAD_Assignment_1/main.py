@@ -32,6 +32,9 @@ class DLL:
         self.length += 1
 
     def add_at_end(self, value):
+        '''
+        Add an element in the end of the DLL
+        '''
         if self.length == 0:
             self.add_at_start(value)
         else:
@@ -70,6 +73,7 @@ class DLL:
             self.add_at_end(value)
 
     def remove_people(self, qty, pos):
+        # Check for complete list removal, len = 0
         pos = pos - 1
         if qty < 1:
             qty = 1
@@ -94,7 +98,6 @@ class DLL:
                     current = current.next
             current.next = None
             self.length -= qty
-
         else:
             for i in range(pos):
                 if i == 0:
@@ -156,25 +159,27 @@ class DLL:
                     current_el = current_el.next
         return current_el
 
-def get_elements(dll:DLL):
-    current = None
-    keep_running = True
-    output = ""
-    while keep_running:
-        if current == None:
-            current = dll.first_value
+    def get_elements(self):
+        current = None
+        keep_running = True
+        output = ""
+        while keep_running:
             if current == None:
-                keep_running = False
+                current = self.first_value
+                if current == None:
+                    keep_running = False
+                else:
+                    output += current.value + " "
             else:
+                current = current.next
                 output += current.value + " "
-        else:
-            current = current.next
-            output += current.value + " "
-        if current.next == None:
-            keep_running = False
-    return output
+            if current.next == None:
+                keep_running = False
+        return output
 
-def output_text(inputfile:str, dll:DLL):
+
+
+def output_text(inputfile, dll):
     with open(inputfile, "r") as f:
         data = f.readlines()
     outputstr = ""
@@ -182,26 +187,26 @@ def output_text(inputfile:str, dll:DLL):
         actions = each_line.strip().split("::")
         if actions[0] == "add_at_start":
             dll.add_at_start(actions[1])
-            outputstr += get_elements(dll)
+            outputstr += dll.get_elements()
         elif actions[0] == "add_at_end":
             dll.add_at_end(actions[1])
-            outputstr += get_elements(dll)
+            outputstr += dll.get_elements()
         elif actions[0] == "add_at_pos":
             dll.add_at_pos(int(actions[1]), actions[2])
-            outputstr += get_elements(dll)
+            outputstr += dll.get_elements()
         elif actions[0] == "flip_order":
             dll.flip_order(int(actions[1]), int(actions[2]))
-            outputstr += get_elements(dll)
+            outputstr += dll.get_elements()
         elif actions[0] == "remove_people":
             dll.remove_people(int(actions[1]), int(actions[2]))
-            outputstr += get_elements(dll)
+            outputstr += dll.get_elements()
         outputstr += "\n\n"
     return outputstr
 
 if __name__ == "__main__":
-    inputfile = r"inputPS14.txt"
-    outputfile = r"outputPS14.txt"
-    with open(outputfile, "w") as f:
-        f.write(output_text(inputfile, dll=DLL()))
+    inputfile = r"inputPS14.txt" 
+    outputfile = r"outputPS14.txt" 
+    with open(outputfile, "w") as f: 
+        f.write(output_text(inputfile, dll=DLL())) 
 
 
