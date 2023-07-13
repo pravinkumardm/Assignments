@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="siteheading">
+    <h1 class="heading"> Password Checker</h1>
+    <h4>Welcome to Password Check</h4>
+    <h4>Let's see if your Password is secure!</h4>
+
+    <p class="textcontent">
+        Fill out the form below with a Username and Password that has the following restraints
+        <ul>
+            <li>Must have an uppercase letter somewhere</li>
+            <li>Must have a lowercase letter somewhere</li>
+            <li>Must have a number at the end.</li>
+        </ul>
+    </p>
+</div>
+<div class="form">
+    <form action="/report" method="post">
+        <div class="form_element">
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" required>
+        </div>
+        <div class="form_element">
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" required>
+        </div>
+        <div class="form_element div_submit_button">
+            <input type="submit" value="Submit" id="submit_button">
+        </div>
+    </form>
+</div>
+{% endblock %}
