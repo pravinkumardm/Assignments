@@ -1,10 +1,14 @@
-from flask import Flask, render_template, request, redirect
+from flask import Flask, render_template, request, redirect, session
 import string
+from database.database import *
 app = Flask(__name__)
+app.secret_key = 'My_Random_Secret_Key_abvasldugjklsda12348@#$%'
 
 
 @app.route('/')
 def index():
+    if 'fail_count' not in session:
+        session['fail_count'] = 0
     return render_template('index.html')
 
 @app.route('/report', methods=['POST'])
@@ -13,6 +17,7 @@ def form_report():
         username = request.form["username"]
         password = request.form["password"]
         # Save data to database
+        insert_password(username, password)
         check_result = runcheck(password)
         text_status = []
         for k,v in enumerate(check_result):
@@ -24,9 +29,11 @@ def form_report():
                 text_status.append("You did not use a number at the end of your password")
         print(text_status)
         if all(check_result):
+            session['fail_count'] = 0
             return render_template('report.html', test_status = "Pass")
         else:
-            return render_template('report.html', test_status= "Fail", failure_result=text_status)
+            session['fail_count'] += 1
+            return render_template('report.html', test_status= "Fail", failure_result=text_status, failcount=session['fail_count'])
 
 
 def runcheck(password):

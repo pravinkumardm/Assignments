@@ -1,30 +1,26 @@
-{% extends 'base.html' %}
-
-{% block content %}
-
-{% if test_status == "Pass" %}
-    <div class="result_heading">
-        <h2>
-            Lets see if your password meet the requirements
-        </h2>
-        <p class="success">
-            Your Password has passed the 3 requirements
-        </p>
-    </div>
+{% extends 'base.html' %} {% block content %} {% if test_status == "Pass" %}
+<div class="result_heading">
+    <h2>Lets see if your password meet the requirements</h2>
+    <p class="success">Your Password has passed the 3 requirements</p>
+</div>
 
 {% else%}
-    <div class="result_heading">
-        <h2>
-            Lets see if your password meet the requirements
-        </h2>
-        <p class="failure">
-            Oh No! Looks like you have following issues with your password!
-        </p>
-        <ul>
-            {% for line in failure_result %}
-            <li>{{line}}</li>
-            {% endfor %}
-        </ul>
-    </div>
-{% endif %}
-{% endblock%}
+<div class="result_heading">
+    <h2>Lets see if your password meet the requirements</h2>
+    <p class="failure">
+        Oh No! Looks like you have following issues with your password!
+    </p>
+    <ul>
+        {% for line in failure_result %}
+        <li>{{line}}</li>
+        {% endfor %}
+    </ul>
+    {% if failcount >= 3 %}
+    <script>
+        alert(
+            "Warning: Three consecutive failed attempts. Please try again later."
+        );
+    </script>
+    {% endif %}
+</div>
+{% endif %} {% endblock%}
