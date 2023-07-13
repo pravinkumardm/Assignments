@@ -7,16 +7,22 @@ app.secret_key = 'My_Random_Secret_Key_abvasldugjklsda12348@#$%'
 
 @app.route('/')
 def index():
+    '''
+    Function to render the default page, creates a session if it does not exist to count the consecutive fails
+    '''
     if 'fail_count' not in session:
         session['fail_count'] = 0
     return render_template('index.html')
 
+
 @app.route('/report', methods=['POST'])
 def form_report():
+    '''
+    Function to render the report page, gets called on click of "Submit" in the form
+    '''
     if request.method == "POST":
         username = request.form["username"]
         password = request.form["password"]
-        # Save data to database
         insert_password(username, password)
         check_result = runcheck(password)
         text_status = []
@@ -37,6 +43,9 @@ def form_report():
 
 
 def runcheck(password):
+    '''
+    Function to check the logic for password checking.
+    '''
     status = []
     upper_checker = []
     lower_checker = []
@@ -52,10 +61,11 @@ def runcheck(password):
             lower_checker.append(False)
     status.append(any(upper_checker))
     status.append(any(lower_checker))
+    # check number at last position and append to status
     status.append(password[-1] in string.digits)
     return status
-    # check number at last position
+
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
