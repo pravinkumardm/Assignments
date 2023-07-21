@@ -1,0 +1,8 @@
+{% extends 'base.html' %} {% block content%}
+<div>
+    {%if message %}
+    <h4 style="color: rgb(255, 0, 0)">{{message}}</h4>
+    <a href="/">Login Now</a>
+    {%endif%}
+</div>
+{% endblock%}

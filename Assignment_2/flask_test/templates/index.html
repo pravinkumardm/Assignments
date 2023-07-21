@@ -1,0 +1,30 @@
+{% extends 'base.html' %} {% block content %}
+<!-- <div class="siteheading">
+    <h1 class="heading"> My Page Signup</h1>
+    <h4>Login</h4>
+
+</div> -->
+<div class="form">
+    {%if message %}
+    <h4 style="color: rgb(255, 0, 0)">{{message}}</h4>
+    {%endif%}
+    <h3 class="Login">Login to Your Account</h3>
+    <form action="/login" method="post">
+        <div class="form_element">
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" required />
+        </div>
+        <div class="form_element">
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" required />
+        </div>
+        <div class="form_element div_submit_button">
+            <input type="submit" value="Login" id="login_button" />
+        </div>
+    </form>
+    <div class="register-box">
+        <p>Not a Member Yet? <a href="/signup">Create an Account</a></p>
+    </div>
+</div>
+
+{% endblock %}

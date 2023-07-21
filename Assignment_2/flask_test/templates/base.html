@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Password Checker</title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='style.css') }}"
+        />
+    </head>
+    <body>
+        <nav id="navbar">
+            <ul>
+                <li {%if current_page == "home"%} class="active" {%endif%} id="navbar_item"><a href="/">Home</a></li>
+                <li {%if current_page == "signup"%} class="active" {%endif%} id="navbar_item"><a href="/signup">Signup</a></li>
+                {% block navbarlink %}{% endblock %}
+            </ul>
+        </nav>
+        <div class="messag">
+            
+        </div>
+        <div id="primary_element">{% block content %} {% endblock %}</div>
+    </body>
+</html>
