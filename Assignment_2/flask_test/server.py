@@ -9,28 +9,34 @@ app.secret_key = 'My_NEW_aldsfyasdifh_Random_Secret_Key_abvasldugjklsda12348@#$%
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://python_password_checker:DB2023#pythonuser_+@localhost/passwordchecker'
 db = SQLAlchemy(app)
 
-
 class User(db.Model):
+    '''
+    Creating a class to represent the model for User, the database will be updated by using this class.
+    '''
     id = db.Column(db.Integer, primary_key = True)
     fname = db.Column(db.String(60), nullable = False)
     lname = db.Column(db.String(60), nullable = False)
     email = db.Column(db.String(60), nullable = False)
     password = db.Column(db.String(60), nullable = False)
 
+# This will create a database table if it does not exist.
 with app.app_context():
     db.create_all()
 
 @app.route('/')
 def index():
     '''
-    Function to render the default page, creates a session if it does not exist to count the consecutive fails
+    Function to render the default page with login form.
     '''
-
     return render_template('index.html', current_page="home")
 
 
 @app.route('/login', methods=['POST', 'GET'])
 def login_page():
+    '''
+    This is only a post request and this will be the url to which 
+    data will be returned, data will be checked in database and appropriately the next page will be rendered.
+    '''
     if request.method == "POST":
         email = request.form['email']
         password = request.form['password']
@@ -43,14 +49,16 @@ def login_page():
 
 @app.route('/signup', methods=["POST", 'GET'])
 def signup_page():
-    print(request.method)
+    '''
+    This function works with both Get and Post request. On Get request it will return the signup page
+    on Post request, the signup data will be returned to backend, Backend will check the validity of Email, 
+    validity of passwords and then update the database else, it will return to user the issue with email / password
+    '''
     if request.method == "GET":
         if 'fail_count' not in session:
             session['fail_count'] = 0
         return render_template("signup.html", failcount = session['fail_count'], current_page="signup")
     if request.method == "POST":
-        print("Working")      
-        print(request.form)
         fname = request.form['fname']
         lname = request.form['lname']
         Email = request.form['email']
@@ -80,10 +88,16 @@ def signup_page():
 
 @app.route('/logout')
 def logout():
+    '''
+    This will only be active in the secretPage.html after login. This will be called when user wants to logout.
+    '''
     session.clear()
     return redirect(url_for('index'))
 
 def check_email(Email):
+    '''
+    Function to check if the email already exists or not.
+    '''
     user = User.query.filter_by(email = Email).first()
     if user:
         return True
