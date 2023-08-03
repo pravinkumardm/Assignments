@@ -1,38 +1,12 @@
-Organ Leader & Decision Making
 
-***Week 12 Written Assignment***
-This week’s journal article focus on the how positive team culture can correct the impact of lagging leadership creativity.  Additionally, we discussed how digital transformation leaders in regard to artificial intelligence (AI).  After reviewing the reading, please answer the following questions:
-What is your definition of AI?  Please explain.
-What is your opinion of AI, is the technology currently available? Why or why not?
-Please note at least four AI technologies, explain if they are truly AI or something else.  Thoroughly explain your answer.
-How is AI perceived as different in various industries and locations? Please explain.
- 
-Be sure to use the UC Library for scholarly research. Google Scholar is also a great source for research.  Please be sure that journal articles are peer-reviewed and are published within the last five years.
-The paper should meet the following requirements:
-3-5 pages in length (not including title page or references)
-APA guidelines must be followed.  The paper must include a cover page, an introduction, a body with fully developed content, and a conclusion.
-A minimum of five peer-reviewed journal articles.
-The writing should be clear and concise.  Headings should be used to transition thoughts.  Don’t forget that the grade also includes the quality of writing.
+Info Tech and Mobile Development - Week 13
 
-Intro to Data Mining
+How has the use of core ideas such as location and orientation-aware pushed iPhone beyond its web browser and tightly integrated web functionalities?
+iPhones can analyze their environment and adjust their behavior, this functionality is due to the location and orientation-awareness. GPS, accelerometers, and gyroscopes helped achieve this goal. These technologies allow the iPhone to provide users location-specific services and apps (Zandbergen, 2009). The iPhone's GPS technology can locate a user, allowing it to propose local restaurants, sights, and services. Another example is the iPhone's mood analysis based on music. It also uses the device's accelerometers and gyroscopes to detect orientation. It can modify the screen display or manage functions using this information. Developers now have tremendous opportunities to build cutting-edge apps and experiences that go beyond web surfing. This extended integration has also added location awareness and orientation-awareness to more iPhone features. ARKit allows app developers to construct augmented reality apps that can superimpose digital information over iPhone camera photos. This has transformed gaming, shopping, and education, enabling unprecedented immersion.
 
-Midterm
-For the midterm, select one key concept that we've learned in the course to date and answer the following:
-Define the concept.
-Note its importance to data science.
-Discuss corresponding concepts that are of importance to the selected concept.
-Note a project where this concept would be used.
-The paper should be between 2-3 pages and formatted using APA 7 format. Two peer reviewed sources should be utilized to connect your thoughts to current published works.
+Why are Plists (property lists) the easiest way to store information on Macs?
+Macs use Plists, also known as property lists, to store data. This way is the easiest. Plists may hold structured data in a human-readable and editable manner. Plists hold human-readable data. They can hold arrays, texts, and numbers, making them useful for various applications (Marczak & Neagle, 2010). Plists are supported throughout macOS and feature a user-friendly syntax. This simplifies Plists. Using the Property List Editor or a plain text editor, Plists are easy to create, amend, and view. Read Plists. Since they're so simple, even non-developers can use them. Plists also store complex data structures and organize data hierarchically. Macs use Plists to store program, configuration, and other data preferences. Most application's preferences folders include plists. Plists work well with macOS's development environment, letting developers access the operating system's full potential by standardization. They may specify user interface elements, preferences, and localization data. Plists, the simplest way to store data on Macintosh computers, boost programs' flexibility and usefulness, making their use necessary. Plists are strong, adaptable, and easy to use in macOS. They may store sophisticated data structures or manage user preferences.
 
-
-Topics
-Introduction to Data Mining
-Data PreProcessing
-
-
-*****************************************
-
-
-Activity 11
-How would your skills impact the potential success of a project?
-The assignment is to answer the question provided above in essay form. This is to be in narrative form and should be as thorough as possible. Bullet points should not to be used. The paper should be at least 1.5 - 2 pages in length, Times New Roman 12-pt font, double-spaced, 1 inch margins and utilizing at least five outside scholarly or professional source related to competitive strategy. The textbook should also be utilized. Do not insert excess line spacing. APA formatting and citation should be used.
+Resources:
+Marczak, E., & Neagle, G. (2010). Property List Files. 
+Zandbergen, P. A. (2009). Accuracy of iPhone Locations: A Comparison of Assisted GPS, WiFi and Cellular Positioning. Transactions in GIS, 13, 5–25.
