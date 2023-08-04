@@ -1,6 +1,9 @@
 import numpy as np
 
 class Ration:
+'''
+This class will define the different types of resources as a single entity, easier to handle during the execution
+'''
     def __init__(self,milk,bread,dhal,rice,flour):
         self.milk = milk
         self.bread = bread
@@ -42,14 +45,21 @@ class Ration:
         return self.milk + self.bread + self.dhal + self.rice + self.flour
 
 class Person:
-    def __init__(self, milk, bread, dhal, rice, flour):
-        # self.ration = Ration(3,1,0,0,0)
+'''
+This defines a generic class called person which helps us keep track of the different type of people. 
+'''
+    def __init__(self, milk, bread, dhal, rice, flour):
         self.ration = Ration(milk, bread, dhal, rice, flour)
+
+
 
 Adult = Person(0,0,1,3,3)
 Child = Person(3,1,0,0,0)
 
 class MapCell:
+'''
+This is a parent class for all cell types.
+'''
     def __init__(self, x, y, cell_type):
         self.x = x
         self.y = y
