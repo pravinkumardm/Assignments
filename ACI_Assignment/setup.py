@@ -48,7 +48,8 @@ class Person:
 '''
 This defines a generic class called person which helps us keep track of the different type of people. 
 '''
-    def __init__(self, milk, bread, dhal, rice, flour):
+    def __init__(self, milk, bread, dhal, rice, flour):
+
         self.ration = Ration(milk, bread, dhal, rice, flour)
 
 
@@ -56,7 +57,7 @@ This defines a generic class called person which helps us keep track of the diff
 Adult = Person(0,0,1,3,3)
 Child = Person(3,1,0,0,0)
 
-class MapCell:
+cl ass MapCell:
 '''
 This is a parent class for all cell types.
 '''
@@ -223,10 +224,26 @@ if __name__ == "__main__":
     mp = np.array(
         [
             ["NA", "NA", "Tent,2,3", "Tent,2,1", "NA", "NA"],
-            ["Supply,10,20,30,40,50", "Path", "Path", "Path", "Path", "Tent,3,2"],
+            ["Supply,28,10,30,50,36", "Path", "Path", "Path", "Path", "Tent,3,2"],
             ["NA", "Path", "NA","NA", "Path", "NA",],
             ["NA", "Path", "NA","NA", "Path", "NA",],
             ["NA", "Path", "Path", "Path", "Path", "Tent,4,0"],
             ["Tent,3,2", "NA", "NA", "Tent,12,0", "Tent,2,3", "NA"],
         ]
     )
+
+    st = State(0,0,mp)
+    S = Ration(0,0,0,0,0)
+    for row in st.map:
+        for cell in row:
+            if cell.cell_type == 3:
+                S +=  cell.supply
+            elif cell.cell_type == 1:
+                S -= cell.required
+            print(S)
+
+# 28 cartons 1000 ml of milk = 28 l of milk
+# 10 bread loaves = 10
+# 15 2 kg dhal = 30 kg dhal
+# 20 2.5 kg packets of rice = 50 kg of rice
+# 12 3 kg flour = 36 kg of flour
