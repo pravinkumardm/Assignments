@@ -1,6 +1,31 @@
-Title: Uber and stakeholders: Managing a new way of riding
-Year : 2015
-Uber 5 year old startup enabled users to order private rides via a smartphone using an application. Mid 2015 pre IPO market valuation of Uber was $50 billion with operations in 311 cities in 58 countries.
-In US ride-for-hire existed and grew about 2.7% / year between 2010 and 2015. 2014 revenues of $14 billion. Transprtation network companies (TNCs) a new category was evolving that shared attributes with traditional limousine and taxi services.
-Regulations varied by area, but limousines, taxis, and their drivers were generally subject to strict safety and insurance requirements. In New York City, for example, professional drivers were required to take defensive driving courses every three years, pass criminal background checks and annual drug tests, receive a medical exam, and undergo annual sex trafficking awareness training.
-New York also required for-hire vehicles to pass annual inspections and carry minimum commercial insurance of $100,000 per passenger and $300,000 per incident. Limos were more of a premium approach to taxi services with rates ranging from $55 per hour in boston to $46 in California. There were some national Leaders in this market previously, such as Carey Internation with 3.5% of market. Taxis had approximately $6.5 billion in revenue in 2014 and were generally priced lower, the cost was apprximately 2.60 for first 1/7 mile with additional 0.40 every 1/7 mile in Boston. Many cities in US have a license sytem (medallion) that are very difficult to obtain and lot of licensing and conceentration of liccenses. Many cab services have aggregated to use a same service for dispatch
+===================================== Planning the Project =====================================
+Assigned Readings:
+Chapter 4: Framework for Project Management
+Chapter 5: Stakeholder Management
+Chapter 6: Culture and Project Management
+Initial Postings: Read and reflect on the assigned readings for the week. Then post what you thought was the most important concept(s), method(s), term(s), and/or any other thing that you felt was worthy of your understanding in each assigned textbook chapter.Your initial post should be based upon the assigned reading for the week, so the textbook should be a source listed in your reference section and cited within the body of the text. Other sources are not required but feel free to use them if they aid in your discussion.
+Also, provide a graduate-level response to each of the following questions:
+
+    PMBOK has identified 10 fundamental knowledge areas you need for effective project management. Identify these knowledge areas and assess the linkages among these knowledge areas.
+    How would you describe the culture within your last or current project?
+
+[Your post must be substantive and demonstrate insight gained from the course material. Postings must be in the student's own words - do not provide quotes!]
+ [Your initial post should be at least 450+ words and in APA format (including Times New Roman with font size 12 and double spaced). Post the actual body of your paper in the discussion thread then attach a Word version of the paper for APA review]
+Submitting the Initial Posting:Your initial posting should be completed by Thursday, 11:59 p.m. EST. 
+Response to Other Student Postings:  Respond substantively to the post of at least two peers, by Friday, 11:59 p.m. EST. A peer response such as “I agree with her,” or “I liked what he said about that” or similar comments are not considered substantive and will not be counted for course credit.
+[Continue the discussion through Sunday,11:59 p.m. EST by highlighting differences between your postings and your colleagues' postings. Provide additional insights or alternative perspectives]
+Evaluation of posts and responses: Your initial posts and peer responses will be evaluated on the basis of the kind of critical thinking and engagement displayed. The grading rubric evaluates the content based on seven areas:
+Content Knowledge & Structure, Critical Thinking, Clarity & Effective Communication, Integration of Knowledge & Articles, Presentation, Writing Mechanics, and Response to Other Students.
+====================================== Project Management Processes =====================================
+
+Your author discusses five different Project Management Life Cycle Models (PMLC) in your book. 
+For your discussion post answer the following question: 
+1.  Identify which models you have experience using. 
+2. Identify a project from your experience that would be a good fit for a specific PMLC model. 
+[Your post must be substantive and demonstrate insight gained from the course material. Postings must be in the student's own words - do not provide quotes!]
+ [Your initial post should be at least 450+ words and in APA format (including Times New Roman with font size 12 and double spaced). Post the actual body of your paper in the discussion thread then attach a Word version of the paper for APA review]
+Submitting the Initial Posting: Your initial posting should be completed by Thursday, 11:59 p.m. EST. 
+Response to Other Student Postings:  Respond substantively to the post of at least two peers, by Friday, 11:59 p.m. EST. A peer response such as “I agree with her,” or “I liked what he said about that” or similar comments are not considered substantive and will not be counted for course credit.
+[Continue the discussion through Sunday,11:59 p.m. EST by highlighting differences between your postings and your colleagues' postings. Provide additional insights or alternative perspectives]
+Evaluation of posts and responses: Your initial posts and peer responses will be evaluated on the basis of the kind of critical thinking and engagement displayed. The grading rubric evaluates the content based on seven areas:
+Content Knowledge & Structure, Critical Thinking, Clarity & Effective Communication, Integration of Knowledge & Articles, Presentation, Writing Mechanics, and Response to Other Students.
