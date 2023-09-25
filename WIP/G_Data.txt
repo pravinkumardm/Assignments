@@ -1,12 +1,37 @@
+Discussion Post
+----------------------
+This week we focus on the knowledge management cycle noted in Figure 5.3 in the Information Technology and Organizational Learning text. Read the following blog post https://document360.com/blog/knowledge-management-challenges/
 
-Info Tech and Mobile Development - Week 13
+Based on what you have read this week, identify three key challenges in implementing knowledge management that you have experienced in the workplace.
 
-How has the use of core ideas such as location and orientation-aware pushed iPhone beyond its web browser and tightly integrated web functionalities?
-iPhones can analyze their environment and adjust their behavior, this functionality is due to the location and orientation-awareness. GPS, accelerometers, and gyroscopes helped achieve this goal. These technologies allow the iPhone to provide users location-specific services and apps (Zandbergen, 2009). The iPhone's GPS technology can locate a user, allowing it to propose local restaurants, sights, and services. Another example is the iPhone's mood analysis based on music. It also uses the device's accelerometers and gyroscopes to detect orientation. It can modify the screen display or manage functions using this information. Developers now have tremendous opportunities to build cutting-edge apps and experiences that go beyond web surfing. This extended integration has also added location awareness and orientation-awareness to more iPhone features. ARKit allows app developers to construct augmented reality apps that can superimpose digital information over iPhone camera photos. This has transformed gaming, shopping, and education, enabling unprecedented immersion.
+Note: The first post should be made by Wednesday 11:59 p.m., EST. I am looking for active engagement in the discussion.  Please engage early and often.
+-----------
+By the end of this week, you should be able to:
+Articulate the various roles in the organization and the similarities and differences within each role. 
+Explain how innovation technology management shapes how we communicate amongst coworkers within an organization.
+Understand the history and development of networking technologies.
+Define the key terms associated with networking technologies.
+----------------------------------
 
-Why are Plists (property lists) the easiest way to store information on Macs?
-Macs use Plists, also known as property lists, to store data. This way is the easiest. Plists may hold structured data in a human-readable and editable manner. Plists hold human-readable data. They can hold arrays, texts, and numbers, making them useful for various applications (Marczak & Neagle, 2010). Plists are supported throughout macOS and feature a user-friendly syntax. This simplifies Plists. Using the Property List Editor or a plain text editor, Plists are easy to create, amend, and view. Read Plists. Since they're so simple, even non-developers can use them. Plists also store complex data structures and organize data hierarchically. Macs use Plists to store program, configuration, and other data preferences. Most application's preferences folders include plists. Plists work well with macOS's development environment, letting developers access the operating system's full potential by standardization. They may specify user interface elements, preferences, and localization data. Plists, the simplest way to store data on Macintosh computers, boost programs' flexibility and usefulness, making their use necessary. Plists are strong, adaptable, and easy to use in macOS. They may store sophisticated data structures or manage user preferences.
+Week 5 Assignment
 
-Resources:
-Marczak, E., & Neagle, G. (2010). Property List Files. 
-Zandbergen, P. A. (2009). Accuracy of iPhone Locations: A Comparison of Assisted GPS, WiFi and Cellular Positioning. Transactions in GIS, 13, 5–25.
+-----------------Study Questions------------
+1. What were the first four locations hooked up to the Internet (ARPANET)?
+2. What does the term packet mean?
+3. Which came first, the Internet or the World Wide Web?
+4. What was revolutionary about Web 2.0?
+5. What was the so-called killer app for the Internet?
+6. What does the term VoIP mean?
+7. What is a LAN?
+8. What is the difference between an intranet and an extranet?
+9. What is Metcalfe’s Law?
+
+--------Exercises-------------
+1. What is the difference between the Internet and the World Wide Web? Create at least three statements that identify the differences between the two.
+3. Pretend you are planning a trip to three foreign countries in the next month. Consult your wireless carrier to determine if your mobile phone would work properly in those countries. What would the costs be? What alternatives do you have if it would not work?
+
+
+------------------------------
+Information Technology and Organizational Learning Assignment:
+
+Chapter 5 – Review the Roles of Line Management and Social Network and Information Technology sections.  Note the various roles in the organization and note the similarities and differences within each role.  Also, note how innovation technology management shapes how we communicate amongst coworkers within an organization. 
