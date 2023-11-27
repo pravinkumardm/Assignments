@@ -1,84 +1,43 @@
-Discussion Forum----
-n project management, scoping is a fundamental phase where the project's objectives, requirements, and constraints are defined. The approach to scoping differs significantly between traditional project management and Agile project management methodologies. Let's compare and contrast scoping activities for traditional and Agile projects.
+Question 1: Why do you think senior management finds it difficult to consider the impact on project management during pre-acquisition decision-making?
 
-Traditional Project Scoping:
+Senior management often finds it difficult to consider the impact on project management during pre-acquisition decision-making due to several reasons. Firstly, senior management may be more focused on the financial aspects of the acquisition, such as the potential for increased revenue and profits, rather than the operational aspects of the acquisition. This can lead to a lack of attention to the impact on project management, which can result in significant challenges during the post-acquisition integration phase.
 
-Detailed Requirements Upfront:
+Secondly, senior management may not have a clear understanding of the importance of project management in the success of an acquisition. They may view project management as a secondary concern, rather than a critical component of the acquisition process. This can lead to a lack of investment in project management resources and a lack of attention to project management best practices.
 
-In traditional project management, scoping is a phase in which we will comprehensive and detailed requirements gathering phase at the beginning of the project. This phase can be extensive, involving a significant amount of documentation.
-Project Charter and Scope Statement:
+Thirdly, senior management may not have the necessary expertise in project management to fully understand the impact of an acquisition on project management. They may not have the knowledge or experience to identify potential challenges and develop strategies to mitigate them. This can result in a lack of attention to project management during the pre-acquisition decision-making process.
 
-The project scope is often documented in a project charter and also in the detailed scope statement. These documents outline the project's objectives, deliverables, constraints, assumptions, and key stakeholders.
-
-Rigid Change Control Process:
-Traditional projects often have a strict change control process. Any changes to the scope require formal approval and are typically accompanied by a change request, which can be time-consuming.
-Predictive Planning:
-
-Scoping in traditional projects is used to create a comprehensive project plan. This plan outlines every phase, task, resource allocation, and timeline. The emphasis is on predictability and adherence to the plan.
-Waterfall Approach:
-
-Traditional project management often follows a linear, waterfall approach. The scope is defined upfront, and the project proceeds through a sequence of phases, such as analysis, design, development, testing, and deployment.
-Agile Project Scoping:
-
-Iterative and Incremental:
-
-Agile scoping is iterative and incremental. Instead of defining all requirements upfront, Agile projects start with an initial high-level scope and iteratively refine the scope as the project progresses.
-User Stories:
-
-Agile projects use user stories to capture high-level requirements. These are brief, user-focused descriptions of functionality that can be developed in a single iteration.
-Change-Friendly:
-
-Agile projects embrace change. Scope changes are expected and encouraged throughout the project. The Agile approach allows for adapting to changing customer needs and market conditions.
-Adaptive Planning:
-
-Scoping in Agile projects involves adaptive planning. Teams plan for a short timeframe, often in 2-4 week cycles called iterations or sprints. The focus is on delivering the highest-priority features within these timeframes.
-Scalable Teams:
-
-Agile teams are cross-functional and self-organizing, enabling them to adapt to scope changes rapidly. Additional features can be added or removed in response to feedback and evolving priorities.
-Comparison:
-
-Flexibility:
-
-Traditional scoping tends to be less flexible, while Agile scoping is highly adaptable. Agile projects can quickly respond to changing requirements, making them suitable for dynamic and uncertain environments.
-Documentation:
-
-Traditional projects require extensive documentation in the scoping phase, whereas Agile projects prioritize working software over comprehensive documentation.
-Predictability vs. Responsiveness:
-
-Traditional scoping emphasizes predictability and following a plan, while Agile scoping prioritizes responsiveness to customer feedback and changing needs.
-Change Control:
-
-Traditional projects have a rigorous change control process, whereas Agile projects embrace change as part of their iterative development process.
-Planning Horizon:
-
-Traditional projects tend to plan for the entire project upfront, whereas Agile projects have shorter planning horizons and adapt their scope as they progress.
+To address these challenges, senior management should prioritize project management during the pre-acquisition decision-making process. They should ensure that project management is given the necessary attention and resources to ensure a successful acquisition. This can include investing in project management expertise, developing a clear understanding of the impact of the acquisition on project management, and developing strategies to mitigate potential challenges.
 
 
-------------
-Activity 9 
-------------
-Greyson Corporation
 
-Greyson Corporation was formed in 1970 by three scientists from the University of California. The major purpose of the company was research and development for advanced military weaponry. Following World War II, Greyson became a leader in the field of research and development. By the mid‐1980s, Greyson employed over 200 scientists and engineers.
+Question 2: How should the two project managers handle the differences in the project management approach?
 
-The fact that Greyson handled only research and development (R&D) contracts was advantageous. First of all, all of the scientists and engineers were dedicated to R&D activities; they did not have to share their loyalties with production programs. Second, a strong functional organization was established. The project management function was the responsibility of the functional manager whose department would perform the majority of the work. Working relationships between departments were excellent.
+When two project managers with different approaches are working together, it is important to find a way to reconcile their differences and work together effectively. Here are some strategies that the two project managers can use to handle their differences:
 
-By the late 1980s, Greyson was under new management. Almost all R&D programs called for establishment of qualification and production planning. As a result, Greyson decided to enter into the production of military weapons as well and capture some of the windfall profits of the production market. This required a major reorganization from a functional to a matrix structure. Personnel problems occurred, but none that proved a major catastrophe.
+1. Identify common goals: The two project managers should identify common goals that they can work towards together. This can help to create a shared sense of purpose and reduce conflict.
 
-In 1994, Greyson entered into the aerospace market with the acquisition of a subcontract for the propulsion unit of the Hercules missile. The contract was projected at $200 million over a five‐year period, with excellent possibilities for follow‐on work. Between 1994 and 1998, Greyson developed a competent technical staff composed mainly of young, untested college graduates. The majority of the original employees who were still there were in managerial positions. Greyson never had any layoffs. In addition, Greyson had excellent career development programs for almost all employees.
+2. Develop a shared project management approach: The two project managers should work together to develop a shared project management approach that incorporates the best practices from both approaches. This can help to create a more effective and efficient project management process.
 
-Between 1997 and 2001, the Department of Defense procurement for new weapons systems was on the decline. Greyson relied heavily on their two major production programs, Hercules and Condor II, both of which gave great promise for continued procurement. Greyson also had some 30hirty smaller R&D contracts as well as two smaller production contracts for hand weapons.
+3. Communicate effectively: Effective communication is critical when working with someone who has a different approach. The two project managers should communicate openly and honestly about their differences and work together to find solutions that work for both of them.
 
-Because R&D money was becoming scarce, Greyson's management decided to phase out many of the R&D activities and replace them with lucrative production contracts. Greyson believed that it could compete with anyone in regard to low‐cost production. Under this philosophy, the R&D community was reduced to minimum levels necessary to support in‐house activities. The director of engineering froze all hiring except for job shoppers with special talents. All nonessential engineering personnel were transferred to production units.
+4. Focus on results: Ultimately, the success of the project is what matters most. The two project managers should focus on achieving the desired results, rather than getting bogged down in their differences.
 
-In 2002, Greyson entered into competition with Cameron Aerospace Corporation for development, qualification, and testing of the Navy's new Neptune missile. The competition was an eight‐motor shoot‐off during the last 10 months of 2003. Cameron Corporation won the contract owing to technical merit. Greyson Corporation, however, had gained valuable technical information in rocket motor development and testing. The loss of the Neptune Program made it clear to Greyson's management that aerospace technology was changing too fast for Greyson to maintain a passive position. Even though funding was limited, Greyson increased its technical staff and soon found great success in winning R&D contracts.
+By using these strategies, the two project managers can work together effectively and achieve success in their project.
 
-By 2005, Greyson had developed a solid aerospace business base. Profits had increased by 30 percent. Greyson Corporation expanded from a company with 200 employees in 1994 to 1,800 employees in 2005. The Hercules Program, which began in 1994, was providing yearly follow‐on contracts. All indications projected a continuation of the Hercules Program through 2002.
 
-Cameron Corporation, in contrast, had found 2005 a difficult year. The Neptune Program was the only major contract that it maintained. The current production buy for the Neptune missile was scheduled for completion in August 2005 with no follow‐on work earlier than January 2006. Cameron Corporation anticipated that overhead rates would increase sharply prior to next buy. The cost per motor would increase from $55,000 to $75,000 for a January procurement, $85,000 for a March procurement, and $125,000 for an August procurement. In February 2005, the Navy asked Greyson Corporation if it would be interested in submitting a sole‐source bid for production and qualification of the Neptune missile. The Navy considered Cameron's position uncertain and wanted to maintain a qualified vendor should Cameron Corporation decide to get out of the aerospace business.
---------
-Using the Case Study entitled -Grayson Corporation on page 187 in the Project Management Case Studies - 6th edition- 
 
-Using your experience documenting scope, outline the problem/opportunity statement you are trying to solve for, 2-3 success criteria, and any assumptions and risks. 
+Question 3: How should Lenore handle disparities in leadership style?
 
-Using your experience, describe the project management process that can be used to manage the project
+When there are disparities in leadership style, it can create challenges for a company. Here are some strategies that Lenore can use to handle these disparities:
+
+1. Identify the differences: The first step is to identify the differences in leadership style. This can help to create a shared understanding of the challenges that need to be addressed.
+
+2. Develop a shared leadership approach: Lenore should work with its leaders to develop a shared leadership approach that incorporates the best practices from both styles. This can help to create a more effective and efficient leadership process.
+
+3. Provide training and development: Lenore can provide training and development opportunities to its leaders to help them develop the skills and knowledge they need to work effectively together.
+
+4. Foster open communication: Effective communication is critical when working with leaders who have different styles. Lenore should foster open communication and encourage its leaders to share their perspectives and ideas.
+
+5. Focus on results: Ultimately, the success of the company is what matters most. Lenore should focus on achieving the desired results, rather than getting bogged down in differences in leadership style.
+
+By using these strategies, Lenore can address disparities in leadership style and create a more effective and efficient leadership process.
