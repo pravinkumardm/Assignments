@@ -1,191 +1,43 @@
-===================================== Planning the Project =====================================
+Question 1: Why do you think senior management finds it difficult to consider the impact on project management during pre-acquisition decision-making?
 
-Assigned Readings:
-Chapter 11: Resource Planning
-Chapter 12: Budget Planning
-Overview:
-Chapter 11 digs into resource planning.  This includes estimating the resources needed for a project and estimating activity durations using a number of different estimating tools and techniques.  Chapter 11 concludes with an in-depth review of resource management and the skills a project manager needs to manage resources effectively.  
-Budget planning or cost management is the process of planning, estimating, budgeting, financing, funding, managing, and controlling costs to enable the project to be completed within budget.  Starting with a cost management plan that governs (or at least establishes the protocol for) the funding, distribution, management and control of the money, the challenges for the project manager and team lie in estimating the true costs of the project, finalizing a budget that covers the planned expenses and being able to measure, report and control costs throughout the project.  Chapter 12 introduces us to the planning process.
-Learning Objectives:
+Senior management often finds it difficult to consider the impact on project management during pre-acquisition decision-making due to several reasons. Firstly, senior management may be more focused on the financial aspects of the acquisition, such as the potential for increased revenue and profits, rather than the operational aspects of the acquisition. This can lead to a lack of attention to the impact on project management, which can result in significant challenges during the post-acquisition integration phase.
 
-    Know what goes into resource management. 
-    Understand the skills needed and resource management techniques available for the examination of unbalanced use of resources.
-    Understand the cost management plan
-    Learn about the various tools and techniques for estimating cost.
-    Know what it takes to create, manage and control a project budget.
-----------
-Initial Postings: Read and reflect on the assigned readings for the week. Then post what you thought was the most important concept(s), method(s), term(s), and/or any other thing that you felt was worthy of your understanding in each assigned textbook chapter.Your initial post should be based upon the assigned reading for the week, so the textbook should be a source listed in your reference section and cited within the body of the text. Other sources are not required but feel free to use them if they aid in your discussion.
-Also, provide a graduate-level response to each of the following questions:
+Secondly, senior management may not have a clear understanding of the importance of project management in the success of an acquisition. They may view project management as a secondary concern, rather than a critical component of the acquisition process. This can lead to a lack of investment in project management resources and a lack of attention to project management best practices.
 
-    How would a cost management plan address the challenges of managing project costs within the internal financial procedures and accounting codes of an organization?
-    What benefits do budgeting processes bring to projects, and what weaknesses do they possess?
----------
-Week 5: Individual Project Deliverable - Resource Input
+Thirdly, senior management may not have the necessary expertise in project management to fully understand the impact of an acquisition on project management. They may not have the knowledge or experience to identify potential challenges and develop strategies to mitigate them. This can result in a lack of attention to project management during the pre-acquisition decision-making process.
 
-Week Five Individual Project Deliverable – Resource Input
-Step 1: Update Project Libre with Resource Inputs
-The following steps should be followed when adding resource input in Project Libre.
-
-    Set the resource input
-
-        Open Project Libre
-        Open your project .
-        Select Resources (Top tool bar)
-        Add your resources
-
-            Enter Resource Name
-            Enter Resource Type
-            Enter Rates
-            Enter Base Calendar
-
-        Enter the remaining resources using the same format as above.
-    Set your resource information
-
-        Select Resource
-        Select information
-        Enter Cost, Resource availability or additional information
-
-    Go back to task to add your resources
-
-        Go to task
-        Click on Gantt
-        Select the task
-        Select assign resource
-        Assign resources and unit percentages
-        Add remaining resources 
-
-        5. Make sure to save your information
-Step 2: Update Project Libre with Cost Inputs
-The following steps should be followed when setting up your Course Project with Project Libre.
-
-    Set the cost input
-
-        Select a column
-        Insert a column by right clicking
-        Select cost
-        Click ok
-
-    Cost should be displayed from resource input
-    Insert new column
-        Select total slack
-        Your total slack should be displayed
-    Insert new column
-        Select Free slack
-        Your free slack should be displayed
-    Select File
-        Click Save Baseline
-        Select Baseline one
-        Select Entire project
-        Click ok
-
-          6. Go print preview
-
-        Adjust your scale
-        Or Fit to one page
-        Select Printer setting to PDF
-        Or save image in word and crop  
-
-          7. Submit in the submission link
-
-
-This week also used the downloaded Project Libre from www.projectlibre.com for the creation of a project resources input and a project costs input by following the guiding steps in the assignment instructions under the caption Week Five Individual Project Deliverable- Resouce Input above.
-I
-Step 1: Update Project Libre with Resource Inputs: Followed by Step 2: Update Project Libre with Cost Inputs 
-i
-Look out to follow applicable examples of previous lecture notes in your emails.
-i
-You will present your answer in an essay form with (Snapshots or PDFs of) the deliverables embedded in the Microsoft Word file paper/essay
-Your assignment essay should have these components and more:
-
-    Begin with a Main Heading,
-    Followed by an introductory paragraph stating the project and connecting the deliverables to the project 
-    The Project Resources Table (text in table) 
-    Well-labeled and Followed by a brief explanation  
-    The Gantt Chart (at the right-hand end of the Resource list)
-    Well-labeled and Followed by a brief explanation  
-    The Itemized Cost Table
-    Well-labeled and Followed by a brief explanation  
-    Add a Conclusion heading and paragraph
-    Remember to add in-text citations and a Reference page as applicable.
-
-To take snapshots of your deliverables the following steps may be followed
-Go print preview
-
-        Adjust your scale
-        Or Fit to one page
-        Select the Printer setting to PDF
-        Or save the images in MS Word and crop
-
-You may also use the snipping tool to snip-shot/cut your deliverables and paste them in the essay.
----------------------------------------------------
-Problem Set Week 5
-
-Earned-value analysis. A project budget calls for the following expenditures:
-Task
-	
-Date
-	
-Budgeted Amount
-Build forms
-	
-April 1
-	
-$10,000
-Pour foundation
-	
-April 1
-	
-$50,000
-May 1
-	
-$100,000
-Frame walls
-	
-May 1
-	
-$30,000
-June 1
-	
-$30,000
-Remaining tasks
-	
-July 1 and beyond
-	
-$500,000
-
-Define each term in your own words, calculate these values for the above project, and show your work:
-
-    Budgeted cost baseline (make a graph illustrating this one)
-    Budget at completion (BAC)
-    Planned value (PV) as of May 1
-    Earned value (EV) as of May 1 if the foundation work is only two-thirds complete. Everything else is on schedule.
-    SV as of May 1.
-    Actual cost as of May 1 is $160,000. Calculate the cost variance (CV) as of May 1.
-    Schedule performance index (SPI)
-    Cost performance index (CPI)
-    Estimate to complete (ETC), assuming that the previous cost variances will not affect future costs
-    Estimate at completion (EAC)
+To address these challenges, senior management should prioritize project management during the pre-acquisition decision-making process. They should ensure that project management is given the necessary attention and resources to ensure a successful acquisition. This can include investing in project management expertise, developing a clear understanding of the impact of the acquisition on project management, and developing strategies to mitigate potential challenges.
 
 
 
+Question 2: How should the two project managers handle the differences in the project management approach?
+
+When two project managers with different approaches are working together, it is important to find a way to reconcile their differences and work together effectively. Here are some strategies that the two project managers can use to handle their differences:
+
+1. Identify common goals: The two project managers should identify common goals that they can work towards together. This can help to create a shared sense of purpose and reduce conflict.
+
+2. Develop a shared project management approach: The two project managers should work together to develop a shared project management approach that incorporates the best practices from both approaches. This can help to create a more effective and efficient project management process.
+
+3. Communicate effectively: Effective communication is critical when working with someone who has a different approach. The two project managers should communicate openly and honestly about their differences and work together to find solutions that work for both of them.
+
+4. Focus on results: Ultimately, the success of the project is what matters most. The two project managers should focus on achieving the desired results, rather than getting bogged down in their differences.
+
+By using these strategies, the two project managers can work together effectively and achieve success in their project.
 
 
-====================================== Project Management Processes =====================================
 
-Project Management Deliverables: 
+Question 3: How should Lenore handle disparities in leadership style?
 
-Research Project Management Deliverables and provide two deliverables that should be used regardless of methodology.  Your answer should include a detailed description of the deliverable, an explanation as to what information it provides, and why it is needed. 
+When there are disparities in leadership style, it can create challenges for a company. Here are some strategies that Lenore can use to handle these disparities:
 
-Identify two deliverables, regardless of methodology, that are no longer needed.  Describe the deliverables, what information it provided, and why, in your research, the deliverable is no longer needed.
+1. Identify the differences: The first step is to identify the differences in leadership style. This can help to create a shared understanding of the challenges that need to be addressed.
 
-Assignment Requirements:
+2. Develop a shared leadership approach: Lenore should work with its leaders to develop a shared leadership approach that incorporates the best practices from both styles. This can help to create a more effective and efficient leadership process.
 
-    The assignment is to answer the question provided above in essay form.
-    Where applicable, students can include diagrams if it will help provide a pictorial view of the solution.   
-    This is to be in narrative form and should be as thorough as possible.
-    Bullet points should not be used. 
-    The paper should be at least 1.5 - 2 pages in length.
-    Times New Roman 12-pt font, double-spaced, 1-inch margins
-    Utilizing at least one outside scholarly or professional source related to project management. The textbook should also be utilized.
-    Do not insert excess line spacing.
-    APA formatting and citation should be used.
+3. Provide training and development: Lenore can provide training and development opportunities to its leaders to help them develop the skills and knowledge they need to work effectively together.
+
+4. Foster open communication: Effective communication is critical when working with leaders who have different styles. Lenore should foster open communication and encourage its leaders to share their perspectives and ideas.
+
+5. Focus on results: Ultimately, the success of the company is what matters most. Lenore should focus on achieving the desired results, rather than getting bogged down in differences in leadership style.
+
+By using these strategies, Lenore can address disparities in leadership style and create a more effective and efficient leadership process.
