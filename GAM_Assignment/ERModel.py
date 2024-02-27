@@ -1,5 +1,6 @@
 import random
 import numpy as np
+import networkx as nx
 
 class ERModel:
     def __init__(self, n, p) -> None:
@@ -8,6 +9,7 @@ class ERModel:
         self.generate_graph()
         self.generate_edge_list()
         self.generate_adj_list()
+        self.g = nx.Graph(self.adj_mat)
 
     def generate_graph(self):
         self.adj_mat = np.zeros((self.n, self.n))
@@ -27,3 +29,10 @@ class ERModel:
             val = np.where(self.adj_mat[i]==1)[0].tolist()
             self.adj_list[i] = val
     
+    def get_largest_component(self):
+        components = nx.connected_components(self.g)
+        subgraph = self.g.subgraph(max(components, key=len))
+        return subgraph.nodes, subgraph.edges
+    
+    def get_triangles(self):
+        return sum(nx.triangles(self.g).values()) / 3
